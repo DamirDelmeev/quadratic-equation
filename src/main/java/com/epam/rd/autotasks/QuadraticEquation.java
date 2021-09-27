@@ -15,7 +15,7 @@ public class QuadraticEquation {
             if (discriminant > 0) {
                 double firstRoot = (-b - Math.sqrt(discriminant)) / (2 * a);
                 double secondRoot = (-b + Math.sqrt(discriminant)) / (2 * a);
-                System.out.println(firstRoot + ", " + secondRoot);
+                System.out.print(firstRoot +" "+ secondRoot);
             }
             if (discriminant == 0) {
                 double firstRoot = -b / (2 * a);
